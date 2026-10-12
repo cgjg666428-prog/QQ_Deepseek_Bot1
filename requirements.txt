@@ -1,0 +1,7 @@
+# 本机已安装版本快照；尚未验证全新环境安装。
+openai==3.24.0
+requests==2.34.2
+websocket-client==1.9.2
+python-dotenv==1.2.4
+yt-dlp==2026.8.19
+opencv-python==5.0.0.93
