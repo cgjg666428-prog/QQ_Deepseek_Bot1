@@ -53,7 +53,6 @@ HTTP 和 WebSocket 在这里承担不同任务：WebSocket 接收消息事件，
 | `*.py.bak` | 修改前的旧代码备份，方便本地回退；可能包含旧凭据，不公开 |
 
 原部署目录还保留了 `qq_test.py`，用于只接收并打印 NapCat 消息，帮助判断 QQ 事件有没有传到 Python。它不生成模型回复，但会打印发送者、群号和内容；发布副本没有包含这个旧调试脚本。原目录中的三份中文 `.txt` 说明分别记录视频测试、机器人视频接入和下载失败排查，本 README 已将相关方法整合进来。
-建议直接安装NapCat.Shell.zip
 
 ## 当前代码包含什么
 
@@ -121,7 +120,7 @@ Copy-Item .env.example .env
 
 ### 3. 配置 NapCat 的消息通道
 
-另行从 [NapCatQQ 官方仓库](https://github.com/NapNeko/NapCatQQ) 获取 NapCat，按所安装版本的文档完成安装和 QQ 登录。本仓库不附带 NapCat、QQ 客户端或登录数据，也不固定某一版本的界面操作位置。
+另行从 [NapCatQQ 官方仓库](https://github.com/NapNeko/NapCatQQ) 获取 NapCat，（建议直接安装NapCat.Shell.zip）按所安装版本的文档完成安装和 QQ 登录。本仓库不附带 NapCat、QQ 客户端或登录数据，也不固定某一版本的界面操作位置。
 
 在 NapCat 中启用 OneBot HTTP 服务和**正向 WebSocket 服务**：
 
